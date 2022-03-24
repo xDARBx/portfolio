@@ -1,10 +1,10 @@
 :root{    
     --primary:#e60012;
     --secundary:#46659b;
-    --background-image: url("../portfolio/body.jpg");
+    --background-image: url("../img/body.jpg");
     --black-text:rgb(61, 61, 61);
     --white-text:#ffffff;
-    --background-image1: url("../portfolio/cuerpo.jpg");
+    --background-image1: url("../img/cuerpo.jpg");
 }
 
 *{
@@ -21,12 +21,14 @@ html {
 }
 
 body{
+    align-content: center;
     font-family: 'New Rocker', Arial, Helvetica, sans-serif;
-    background-image: var(--background-image);
+    /*background-image: var(--background-image);*/
+    background-color: #000000;
 }
 
 nav{
-    background-image: url("../portfolio/banner.jpg");
+    background-image: url("../img/banner.jpg");
     border-start-start-radius: 50px;
     border-start-end-radius: 50px;
     border-color: #e60012;
@@ -103,24 +105,79 @@ nav ul{
 }
 
 .cuerpo{
+    align-content: center;
+    text-align: center;
     background-image: var(--background-image1);
+    background-size: cover;
+}
+.content {
+    align-content: center;
+    text-align: center;
+    border: 2px;
+    border-style:inset;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.774);
+    display: inline-block;
+    width: 100%;
+    height: 400px;
+}
+
+#redes{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+}
+
+p{
+    display: inline-flex;
+}
+
+#foto {
+    display: inline-block;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: #000000;
+    box-shadow: 0 .8rem 1rem 0 rgb(0, 0, 0);
+}
+
+img{
+    width: 100%;
+    border-radius: 200px;
+}
+
+.ico{
+    height: 50px;
+    width: 50px;
+}
+
+#ico{
+    height: 50px;
+    width: 50px;
 }
 
 .acerca {
-
+    align-content: center;
+    text-align: center;
     width: 100%;
     height: 100%;
 }
 
 .habilidades {
     width: 100%;
-    height: 100%;
+    height: 500px;
     
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
 }
 
 .formacion {
     width: 100%;
-    height: 100%;
+    height: 900px;
     
 }
 
@@ -129,19 +186,25 @@ nav ul{
     height: 100%;
     
 }
+.experiencia, p{
+    color: white;
+}
+.cv{
+    color: white;
+}
 
 button{
     width: 100%;
     height: 100%;
 }
 form {
-    
+color:white;    
 }
 
 footer {
     width: 100%;
     height: 100%;
-    background-image: url("../portfolio/banner.jpg");
+    background-image: url("../img/banner.jpg");
     color: azure;
     border-color: #000000;
     border-style: groove;

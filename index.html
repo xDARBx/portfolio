@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/png" sizes="120x120" rel="icon" href="./ico/fav.png">
     <title>DARB PORTFOLIO</title>
     <script src="https://kit.fontawesome.com/e252f7116c.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/scarousel.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
-    
 
 </head>
+
 <body>
     <header>
         <nav>
@@ -32,32 +35,32 @@
                 </div>
 
                 <div class="drop-down-menu">
-                    <button class="drop-down-button"><a href="#acerca">About</a>
-                        
+                    <button class="drop-down-button"><a href="#acerca">Acerca</a>
+
                         <i class="fa-solid fa-angle-down"></i>
                     </button>
                     <div class="drop-down-menu-content">
-                        
+
                     </div>
                 </div>
 
                 <div class="drop-down-menu">
-                    <button class="drop-down-button">Formation
+                    <button class="drop-down-button">formación
                         <i class="fa-solid fa-angle-down"></i>
                     </button>
                     <div class="drop-down-menu-content">
-                        <a href="#">Studies</a>
-                        <a href="#">Courses</a>
+                        <a href="#formacion">Cursos</a>
+                        <a href="#container2">Estudio</a>
                     </div>
                 </div>
 
                 <div class="drop-down-menu">
-                    <button class="drop-down-button">Experience
+                    <button class="drop-down-button">Experiencia
                         <i class="fa-light fa-chevrons-down"></i>
                     </button>
                     <div class="drop-down-menu-content">
-                        <a href="#experiencia">Jobs</a>
-                        
+                        <a href="#experiencia">Trabajos</a>
+
                     </div>
                 </div>
 
@@ -66,134 +69,147 @@
         </nav>
     </header>
 
-<section class="cuerpo">
-    <br>
-        <div id="redes">
-            <H1> Soy Daniel Alberto Rocha Bartaburu y estoy aprendiendo
-                Desarrollo Web.
-            </H1>
-            <div id="foto">
-                <img src="../portfolio/img/linkedin.png" alt="foto">
+    <section class="cuerpo">
+        <div class="content">
+            <div id="redes">
+                <div>
+                    <H1> Hola! Me llamo Daniel Alberto Rocha Bartaburu; 36 años de edad; argentino, de la Ciudad
+                        Autónoma de Buenos Aires.</H1>
+                    <p>Me dedico principalmente a la reparación de computadoras y otros dispositivos electrónicos de
+                        manera autónoma. Además, soy profesor particular, dictando clases de computación y/o de
+                        informática dirigidas a adultos de tercera edad. Actualmente me encuentro realizando diversos
+                        cursos de Programación y Desarrollo Web, así como otros en el área de Habilidades Blandas, con
+                        el objetivo de insertarme en este sector del mercado laboral.</p>
+                </div>
+                <p><a href="https://www.linkedin.com/in/rochabartaburu/" target="_blank" rel="noopener noreferrer"><img
+                            class="ico" src="./ico/linkedin.png" alt="linkedin"></a></p>
+
+                <div id="foto">
+                    <img src="./img/linkedin.png" alt="foto">
+                </div>
+                <p><a href="https://github.com/xDARBx/" target="_blank" rel="noopener noreferrer"><img class="ico"
+                            src="./ico/github.png" alt="github"></a></p>
             </div>
-            <h6>LINKEDIN - GITHUB</h6>
-        </div> 
-    
+        </div>
 
-    <section class="acerca" id="acerca">
-        
-<h3>HOBBIS</h3>
-<H4>MÚSICA</H4>
-<H4>INFORMÁTICA</H4>
-<H4>DEPORTES</H4>
-    </section>
-    
-    <section class="habilidades">
-<H3>SKILLS</H3>
-<H4>DEPORTES</H4>
-<H4>DEPORTES</H4>
-<H4>DEPORTES</H4>
-    </section>
+        <section class="acerca" id="acerca">
 
-    <section class="formacion">
-        <H4>FORMACIÓN</H4>
-        <H4>CURSOS</H4>
-    </section>
-    
-    <section class="experiencia" id="experincia">
-        <H4>EXPERIENCIA LABORAL</H4>
-    </section>
+            <h2>SKILLS</h2>
+            <div class="skills">
+                <div class="slider">
+                    <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav" />
+                    <input type="radio" name="slider" title="slide2" class="slider__nav" />
+                    <input type="radio" name="slider" title="slide3" class="slider__nav" />
+                    <input type="radio" name="slider" title="slide4" class="slider__nav" />
+                    <input type="radio" name="slider" title="slide5" class="slider__nav" />
+                    <div class="slider__inner">
+                        <div class="slider__contents"><i class="slider__image fa fa-codepen"></i>
+                            <img id="sico" src="./ico/html.png" class="slider__caption">
+                            <p class="slider__txt">HTML</p>
+                        </div>
+                        <div class="slider__contents"><i class="slider__image fa fa-newspaper-o"></i>
+                            <img id="sico" src="./ico/css.png" class="slider__caption">
+                            <p class="slider__txt">CSS</p>
+                        </div>
+                        <div class="slider__contents"><i class="slider__image fa fa-television"></i>
+                            <img id="sico" src="./ico/js.png" class="slider__caption">
+                            <p class="slider__txt">JAVASCRIPT</p>
+                        </div>
+                        <div class="slider__contents"><i class="slider__image fa fa-diamond"></i>
+                            <img id="sico" src="./ico/mysql.png" class="slider__caption">
+                            <p class="slider__txt">MYSQL</p>
+                        </div>
+                        <div class="slider__contents"><i class="slider__image fa fa-diamond"></i>
+                            <img id="sico" src="./ico/python.png" class="slider__caption">
+                            <p class="slider__txt">PYTHON</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section class="cv">
-        <H4>VER/DESCARGAR CURRICULUM</H4>
-        
+        <section class="habilidades">
+            <h2>HOBBIES</h2>
+
+            <iframe src="hobbies.html" frameborder="0"></iframe>
+        </section>
+        <div>
+            <section class="formacion" id="formacion">
+
+                <H4>FORMACIÓN</H4>
+                <iframe src="formacion.html" frameborder="0"></iframe>
+
+            </section>
+        </div>
+        <section class="experiencia" id="experiencia">
+            <H4>EXPERIENCIA LABORAL</H4>
+            <p>Reparación y armado de computadoras | Autónomo
+                Sugiero que expliques que haces…algo breve pero descriptivo. Por ejemplo, aca podes poner que trabajas
+                tanto PC como Notebooks u otros dispositivos…no se si es asi, pero para ubicarte
+                2001 - en vigencia</p>
+
+
+            <p>Soporte Técnico |Nombre de la empresa o alguna referencia si era un autonomo
+                Sugiero que expliques que tareas desarrollabas… breve pero descriptivo . Tipo tareas de mantenimiento de
+                hostingo, bla, bla…no se que hacias bien jeje
+                2009 - 2011</p>
+        </section>
+
+        <section class="cv">
+            <H4>VER/DESCARGAR CURRICULUM</H4>
+
             <input type="submit" value="CV PDF" onClick="window.open('cvdarb.pdf','pwin')">
-        
-        
+
+
+        </section>
+
+
+        <form action="http://www.sitiowebfalso.com/falso.php" method="get">
+            <fieldset>
+                <legend>
+                    Datos Personales
+                </legend>
+                <label>
+                    Nombres:
+                    <input id="nombre1" type="text" name="nombres" size="30" placeholder="Ingrese su Nombre completo" required>
+                </label>
+                <br />
+                <label>
+                    Asunto:
+                    <input id="asunto" type="text" name="asunto" size="30" placeholder="Ingrese un asunto" required>
+                </label>
+                <br />
+
+                <label>
+                    Correo:
+                    <input id="correo" type="email" name="correo" size="30" placeholder="Ingrese su E-mail" required>
+                </label>
+                <br>
+                <p>
+                    <label for="mensaje">
+                        Mensaje:
+                    
+                </p>
+                <br>
+                <textarea id="mensaje" size="30" placeholder="Ingrese su mensaje" required>
+                </textarea>
+                </label>
+            
+                <input id="btn" type="submit" value="ENVIAR" disabled/>
+            </fieldset>
+        </form>
+        <br>
+
     </section>
-    
-    
-
-    <form action="http://www.sitiowebfalso.com/falso.php" method="get">
-        <fieldset>
-            <legend>
-                Datos Personales
-            </legend>
-            <label>
-                Nombres:
-                <input type="text" name="nombres" size="30" maxlength="100">
-            </label>
-            <br/>
-            <label>
-                Apellidos:
-                <input type="text" name="apellidos" size="30" maxlength="100">
-            </label>
-            <br />
-            <!--<label>
-                DNI:
-                <input type="text" name="dni" size="30" maxlength="100">
-            </label>
-            <br/>-->
-            <label>
-                Correo:
-                <input type="email" name="correo" size="30" maxlength="100">
-            </label>
-            <br />
-        </fieldset>
-        <br/>
-        <fieldset>
-            <!--<legend>
-                tu opinión sobre nuestro sitio:
-            </legend>
-            <p>
-                <label for="opciones">
-                    Cómo se enteró de nosotros?
-                </label>
-                <select name="seleccion" id="opciones">
-                    <option value="google">Google</option>
-                    <option value="tv">TV</option>
-                    <option value="radio">Radio</option>
-                    <option value="otro">Otro</option>
-                </select>
-            </p>
-            <p>
-                Va a comprar alguno de nuestros paquetes de seguros de vida?
-                <br />
-                <label>
-                    <input type="radio" name="radio_buttons" value="si" />
-                    Sí
-                </label>
-                <label>
-                    <input type="radio" name="radio_buttons" value="no" />
-                    No
-                </label>
-                <label>
-                    <input type="radio" name="radio_buttons" value="nose" />
-                    No sé
-                </label>
-            </p>-->
-            <p>
-                <label for="comentarios">
-                    Commentarios:
-                </label>
-                <br />
-                <textarea rows="4" cols="40" id="comments">
-</textarea>
-            </p>
-            <label>
-                <input type="checkbox" name="subscribe" checked="checked" />
-                Acepto términos y condiciones
-            </label>
-            <br />
-            <input type="submit" value="Enviar" />
-        </fieldset>
-    </form>
-
     <footer>
-    
+
         <p>DARB 2022</p><i class="fa-brands fa-github-alt"></i>
-        
-    
+
+
     </footer>
-</section>
+
+    <script src="./js/validar.js"></script>
+    <script src="./js/form.js"></script>
+    
 </body>
 </html>
